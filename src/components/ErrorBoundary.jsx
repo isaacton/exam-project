@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
  class ErrorBoundary extends Component {
 
@@ -21,7 +21,7 @@ componentDidCatch(error,info){
 
   render() {
     if(this.state.hasError){
-        return <h1 style={{color: "red"}}>wrong happening...</h1>
+        return <h1 style={{color: "red"}}>Something when happening...</h1>
     }
     return this.props.children
   }
